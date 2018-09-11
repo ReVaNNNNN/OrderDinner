@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel - Order the Dinner :) :)
+                    Laravel - Order the Dinner :) :) W końcu mam bazę !
                 </div>
 
                 <div class="links">
