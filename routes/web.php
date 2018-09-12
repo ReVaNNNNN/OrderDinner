@@ -11,6 +11,16 @@
 |
 */
 
+// use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/wall', function () {
+    return view('wall');
+})->name('wall');
+
+// Route::get('/wall', 'Controller@wall')->name('wall');
+
+// Route::view('/wall-of-fame', 'wall_of_fame', ['name' => 'wall']);
