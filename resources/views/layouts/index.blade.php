@@ -66,15 +66,13 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Wall of Fame
+            @include('components.login-panel')
+                <div class="content">
+                    <div class="title m-b-md">
+                        Order the Dinner - weź się zarejestruj kolo :)
+                    </div>
+                    <br>
                 </div>
-                <ul>
-                    <li>Maciej Grabowski - shanpee</li>
-                </ul>
-            </div>
         </div>
     </body>
 </html>

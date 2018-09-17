@@ -14,13 +14,9 @@
 // use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.index');
 });
 
-Route::get('/wall', function () {
-    return view('wall');
-})->name('wall');
+Auth::routes();
 
-// Route::get('/wall', 'Controller@wall')->name('wall');
-
-// Route::view('/wall-of-fame', 'wall_of_fame', ['name' => 'wall']);
+Route::get('/home', 'HomeController@index')->name('home');
